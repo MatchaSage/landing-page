@@ -30,10 +30,10 @@ body{
 
 .top-head-p-button{
     display: flex;
-    padding-top: 40px;
+    padding-top: 70px;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     gap: 350px;
 }
 
@@ -41,7 +41,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 400px;
-    gap: 8px;
+    gap: 20px;
 }
 
 .top-head-p-button .header-text{
@@ -63,7 +63,9 @@ body{
     border-radius: 5px;
     color: #f9faf8;
     width: 100px;
-    padding: 5px;
+    padding: 9px;
+    font-size: 15px;
+    font-weight: bold;
     background-color: #3882f6;
 }
 
@@ -113,6 +115,7 @@ a:link{
     display: flex;
     align-content: center;
     text-align-last: center;
+    font-weight: 300;
     width: 150px;
 }
 
@@ -132,6 +135,7 @@ a:link{
 }
 
 .middle-top .header{
+    padding-top: 60px;
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
@@ -166,6 +170,7 @@ a:link{
 .thor-quote{
     display: flex;
     justify-content: flex-end;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -183,22 +188,24 @@ a:link{
 .bottom-group-container{
     display: flex;
     justify-content: space-around;
+    align-items: flex-end;
     background-color: #3882f6;
-    width: 1300px;
-    padding: 50px;
+    width: 1000px;
+    padding: 50px 20px;
     border-radius: 10px;
     gap: 50px;
 }
 
 .bottom-text-container{
     display: flex;
+    gap: 5px;
     flex-direction: column;
 }
 
 .call-to-action{
     color: #f9faf8;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .call-lower-text{
