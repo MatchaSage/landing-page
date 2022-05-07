@@ -141,6 +141,10 @@ a:link{
     color: #1f2937;
 }
 
+img{
+    border-radius: 7px;
+}
+
 /*MIDDLE TOP SECTION END*/
 
 /*MIDDLE BOTTOM SECTION START*/
